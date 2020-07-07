@@ -1,0 +1,16 @@
+{
+  "name": "webpage",
+  "version": "1.0.0",
+  "description": "* HTML5 (with semantic tags)\r   * CSS3\r      * GRID",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./app/index.html",
+    "build": "parcel build ./app/index.html",
+    "deploy": "gh-pages -d app"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
