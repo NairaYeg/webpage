@@ -201,7 +201,7 @@ footer {
 }
 
 @media(max-width: 500px){
-    .top-conteiner {
+    .main-conteiner {
         display: grid;
         grid-template-areas:
          "main-header " 
